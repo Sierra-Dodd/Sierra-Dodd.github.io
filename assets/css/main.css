@@ -2164,6 +2164,13 @@ input, select, textarea {
 			display: block;
 		}
 
+		/* Make videos behave like images inside cards */
+		.image video {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 2.5em 2em 0;
